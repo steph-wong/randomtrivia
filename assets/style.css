@@ -23,6 +23,12 @@ li {
   list-style: none;
 }
 
+.qnArea {
+  width: 60%;
+  height: 210px;
+  margin: 0 auto;
+}
+
 button {
   width: 110px;
 	height: 110px;
