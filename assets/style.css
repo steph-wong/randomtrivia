@@ -1,88 +1,101 @@
-body {
+  body {
   color: #413D3D;
-	font-family: 'Slabo 27px', serif;
+  font-family: 'Slabo 27px', serif;
   width: 95%;
   text-align: center;
   margin: 0 auto;
 }
-
 header {
-	font-family: 'Galada', cursive;
-	font-size: 20px;
-	color: #303b3b;
+  font-family: 'Galada', cursive;
+  font-size: 20px;
+  color: #303b3b;
 }
-
+@media only screen and (min-width: 320px) {
+  header {
+    font-size: 16px;
+    font-size: 1em;
+    padding-top: 16px;
+    padding-top: 1em;
+  }
+}
 ul {
   list-style-type: none;
   margin: 0 auto;
   list-style: none;
   padding: 0;
 }
-
 li {
   list-style: none;
 }
-
-button {
-  width: 110px;
-	height: 110px;
-  font-size: 20px;
-  background-color: #303b3b;
-  color: #f0f0f0;
-	font-family: 'Slabo 27px', serif;
-  border-radius: 100px;
-  outline: none;
-  border: none;
-}
-
-button:active {
-  background-color: #596363;
-}
-
-.button {
-  width: 280px;
+.qnArea {
+  width: 50%;
   margin: 0 auto;
 }
-
-.submitAns {
-  float: left;
-  margin: 15px;
-  display: inline-block;
-}
-
-.rightAns {
-  background-color: #2ecc71;
-}
-
-.wrongAns {
-  background-color: #e74c3c;
-}
-
-.points {
-	clear: both;
-  text-align: center;
-  height: 30px;
-  position: relative;
-  margin: 0 auto;
-  padding-bottom: 50px;
-}
-
-#playTurn {
-	background-color: rgba(48, 59, 59, 0.2);
-}
-
-#scoreOne {
-  font-size: 15px;
-  text-align: right;
-  display: inline-block;
-  float: center;
-  padding: 5px;
-}
-
-#scoreTwo {
-  font-size: 15px;
-  text-align: left;
-  display: inline-block;
-  float: center;
-  padding: 5px;
-}
+@media only screen and (min-width: 320px) {
+  .qnArea {
+    width: 75%;
+  }
+  button {
+    width: 110px;
+    height: 110px;
+    font-size: 20px;
+    background-color: #303b3b;
+    color: #f0f0f0;
+    font-family: 'Slabo 27px', serif;
+    border-radius: 100px;
+    outline: none;
+    border: none;
+  }
+  button:active {
+    background-color: #596363;
+  }
+  .button {
+    width: 280px;
+    margin: 0 auto;
+  }
+  .submitAns {
+    float: left;
+    margin: 15px;
+    display: inline-block;
+  }
+  .rightAns {
+    background-color: #2ecc71;
+  }
+  .wrongAns {
+    background-color: #e74c3c;
+  }
+  .points {
+    clear: both;
+    text-align: center;
+    height: 30px;
+    position: relative;
+    margin: 0 auto;
+    padding-bottom: 50px;
+  }
+  @media only screen and (min-width: 320px) {
+    h2 {
+      font-size: 22px;
+      font-size: 1.375em;
+    }
+    h3 {
+      font-size: 20px;
+      font-size: 1.25em;
+    }
+  }
+  #playTurn {
+    background-color: rgba(48, 59, 59, 0.2);
+  }
+  #scoreOne {
+    font-size: 15px;
+    text-align: right;
+    display: inline-block;
+    float: center;
+    padding: 5px;
+  }
+  #scoreTwo {
+    font-size: 15px;
+    text-align: left;
+    display: inline-block;
+    float: center;
+    padding: 5px;
+  }
