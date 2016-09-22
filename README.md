@@ -1,11 +1,11 @@
 # Random Facts Trivia
 
-This trivia is a simple two-player turn-based quiz.
+This app is a simple two-player turn-based game where players are scored on true/false questions on random facts.
 
 
 ### Instructions
 
-Game can be played here: https://steph-wong.github.io/randomtrivia
+Game is deployed here: https://steph-wong.github.io/randomtrivia
 
 
 ### Technologies Used
@@ -24,8 +24,3 @@ Game can be played here: https://steph-wong.github.io/randomtrivia
 
 - Reset button sometimes clones itself
 - Unsure how to reset game without using reload
-
-
-### References
-
--
